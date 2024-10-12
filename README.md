@@ -57,7 +57,7 @@ def isHappy(n):
 > docker exec moonjang git --version
 > ```
 > * This command checks the version of Git installed inside the container.
->   - **Output**: 'git version 2.43.0'
+>   - **Output**: "git version 2.43.0"
 >   - The installed Git version is **2.43.0**.
 
 > ```bash

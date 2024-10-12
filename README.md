@@ -23,7 +23,7 @@ def isHappy(n):
 ```
 * The `isHappy` function checks whether a number is a **happy number**. It uses a helper function `go(number)` that calculates the sum of the squares of a number's digits. The main idea is to track two sequences of numbers: `slow` and `fast`. `slow` progresses by applying `go()` once, while `fast` progresses by applying `go()` twice. This is similar to the **tortoise and hare** cycle detection algorithm.
 
-If `fast` becomes 1, the number is happy. If `slow` meets `fast` (without reaching 1), a cycle exists, indicating the number is not happy. The function returns `\textbf{True}` if $n$ is a happy number and `\textbf{False}` otherwise.
+* If `fast` becomes 1, the number is happy. If `slow` meets `fast` (without reaching 1), a cycle exists, indicating the number is not happy. The function returns `\textbf{True}` if $n$ is a happy number and `\textbf{False}` otherwise.
 
 
 ---

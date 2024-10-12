@@ -50,7 +50,7 @@ def isHappy(n):
 >   UBUNTU_CODENAME=noble
 >   LOGO-ubuntu-logo
 >   ```
->   - The container is running **Ubuntu 24.04.1 LTS** with codename `noble`. It also provides other details like `VERSION_ID`, `HOME_URL`, and support URLs.
+>   - The container is running **Ubuntu 24.04.1 LTS** with codename `noble`. It also provides other details like `VERSION_ID`, `HOME_URL`, and `SUPPORT_URL`s.
 
 > ```bash
 > #bash

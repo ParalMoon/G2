@@ -22,9 +22,18 @@ def isHappy(n):
     return fast == 1
 
 ```
-* The `isHappy` function checks whether a number is a **happy number**. It uses a helper function `go(number)` that calculates the sum of the squares of the number's digits. The main idea is to track two sequences of numbers: `slow` and `fast`. `slow` progresses by applying `go()` once, while `fast` progresses by applying `go()` twice. If `fast` becomes 1, the number is happy. If `slow` meets `fast` (without reaching 1), a cycle exists, indicating the number is not happy. The function returns `True` if $n$ is a happy number and `False` otherwise.
+* The `isHappy` function determines if a number is a **happy number**. It uses a helper function `go(number)` to compute the sum of the squares of the number's digits. Two variables of numbers, `slow` and `fast`, track the progression of the sum: `slow` is updated once per iteration, while `fast` is updated twice. If `fast` reaches 1, the number is happy. If `slow` and `fast` converge without reaching 1, a cycle is detected, meaning the number is not happy. The function returns `True` if $n$ is a happy number, and `False` otherwise.
+
 * This approach leverages **Floyd's cycle detection algorithm** (also known as the **tortoise and hare algorithm**). [Learn more about the algorithm here](https://en.wikipedia.org/wiki/Cycle_detection#Floyd's_tortoise_and_hare)
 
 
 ---
+## Week 5 Assignment
+
+>
+```bash
+docker exec <your container> cat /etc/os-release
+```
+
+
 

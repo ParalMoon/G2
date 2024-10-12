@@ -1,6 +1,7 @@
 # SWE_2021_41_2024_2_week_6
 
-
+---
+## Week 4 Assignment
 
 * https://github.com/ParalMoon/SWE_2021_42_2024_2_week_4
 ```python
@@ -26,7 +27,7 @@ def isHappy(n):
 
 * This approach leverages **Floyd's cycle detection algorithm** (also known as the **tortoise and hare algorithm**). [Learn more about the algorithm here](https://en.wikipedia.org/wiki/Cycle_detection#Floyd's_tortoise_and_hare)
 
-
+---
 ## Week 5 Assignment
 
 > ```bash

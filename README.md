@@ -36,18 +36,18 @@ def isHappy(n):
 > * This command prints the operating system details of the container by displaying the content of `/etc/os-release`. 
 >   - **Output**: ```bash
 >   - PRETTY_NAME="Ubuntu 24.04.1 LTS"
-NAME="Ubuntu"
-VERSION_ID="24.04"
-VERSION="24.04.1 LTS (Noble Numbat)"
-VERSION_CODENAME=noble
-ID=ubuntu
-ID_LIKE=debian
-HOME_URL="https://www.ubuntu.com/"
-SUPPORT_URL="https://help.ubuntu.com/"
-BUG_REPORT_URL="https://bugs.launchpad.net/ubuntu/"
-PRIVACY_POLICY_URL="https://www.ubuntu.com/legal/terms-and-policies/privacy-policy"
-UBUNTU_CODENAME=noble
-LOGO-ubuntu-logo
+>   - NAME="Ubuntu"
+>   - VERSION_ID="24.04"
+>   - VERSION="24.04.1 LTS (Noble Numbat)"
+>   - VERSION_CODENAME=noble
+>   - ID=ubuntu
+>   - ID_LIKE=debian
+>   - HOME_URL="https://www.ubuntu.com/"
+>   - SUPPORT_URL="https://help.ubuntu.com/"
+>   - BUG_REPORT_URL="https://bugs.launchpad.net/ubuntu/"
+>   - PRIVACY_POLICY_URL="https://www.ubuntu.com/legal/terms-and-policies/privacy-policy"
+>   - UBUNTU_CODENAME=noble
+>   - LOGO-ubuntu-logo
 >   - ```
 >   - The container is running **Ubuntu 24.04.1 LTS** with codename `noble`. It also provides other details like `VERSION_ID`, `HOME_URL`, and support URLs.
 

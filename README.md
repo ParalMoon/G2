@@ -34,7 +34,8 @@ def isHappy(n):
 > docker exec moonjang cat /etc/os-release
 > ```
 > * This command prints the operating system details of the container by displaying the content of `/etc/os-release`. 
->   - **Output**: ```bash
+>   - **Output**:
+>   - ```bash
 >   - PRETTY_NAME="Ubuntu 24.04.1 LTS"
 >   - NAME="Ubuntu"
 >   - VERSION_ID="24.04"

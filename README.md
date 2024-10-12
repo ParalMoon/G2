@@ -4,6 +4,7 @@
 
 * https://github.com/ParalMoon/SWE_2021_42_2024_2_week_4
 ```python
+#python
 def isHappy(n):
     def go(number):
         total = 0

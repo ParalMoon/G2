@@ -57,7 +57,7 @@ def isHappy(n):
 > docker exec moonjang git --version
 > ```
 > * This command checks the version of Git installed inside the container.
->   - **Output**: "git version 2.43.0"
+>   - **Output**: `git version 2.43.0`
 >   - The installed Git version is **2.43.0**.
 
 > ```bash
@@ -65,7 +65,7 @@ def isHappy(n):
 > docker exec moonjang python3 --version
 > ```
 > * This command checks the version of Python 3 installed in the container.
->   - **Output**: 'Python 3.12.3'
+>   - **Output**: `Python 3.12.3`
 >   - The installed Python version is **3.12.3**.
 
 > ```bash

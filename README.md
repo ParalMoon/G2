@@ -30,11 +30,31 @@ def isHappy(n):
 ---
 ## Week 5 Assignment
 
->
-```bash
-#bash
-docker exec <your container> cat /etc/os-release
-```
+>```bash
+>#bash
+>docker exec <your container> cat /etc/os-release
+>```
+>* 
+> 
+
+>```bash
+>#bash
+>docker exec <your container> git --version
+>```
+>* 
 >
 
+>```bash
+>#bash
+>docker exec <your container> python3 --version
+>```
+>* 
+> 
+
+>```bash
+>#bash
+>docker inspect --format="{{ .HostConfig.Binds }}" <container_name>
+>```
+>* 
+> 
 

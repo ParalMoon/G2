@@ -32,8 +32,9 @@ def isHappy(n):
 
 >
 ```bash
+#bash
 docker exec <your container> cat /etc/os-release
 ```
-
+>
 
 

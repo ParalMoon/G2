@@ -1,0 +1,7 @@
+#!/bin/sh
+
+#!/bin/sh
+
+for i in 2; do
+  mv SWE_2021_41_2024_2_week_"$i" OSSP/
+done
